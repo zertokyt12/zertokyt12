@@ -1,0 +1,90 @@
+
+.first {
+    background-color: rgb(80, 80, 255);
+    width: 100%;
+    height: 75px;   
+    
+    
+    }
+
+    body {
+
+        margin: 0%;
+    
+    }
+
+#youtube-img {
+
+position: absolute;
+top: 1.5px;
+width: 85px;
+border-radius: 5px;
+left: 2.5px;
+}
+
+#youtube:hover {
+
+animation-name: test;
+animation-duration: 0.5s;
+animation-fill-mode: forwards;
+}
+
+#youtube {
+
+    position: absolute;
+    left: 93px;
+    font-size: 225%;
+    top: -5px;
+    text-decoration: none;
+    color: white;
+    }
+
+
+@keyframes test {
+
+    from {
+color:white; 
+
+    }
+    to {
+
+color:blue;
+
+    }
+}
+
+#Anti-Drop {
+
+position: absolute;
+font-size: 10px;
+top: 25%;
+left: 40%;
+
+}
+
+#Anti-Droptxt {
+position: absolute;
+left: 44%;
+top: 16%;
+font-size: 55px;
+color:red
+
+}
+
+#java1 {
+
+position: absolute;
+display: flex;
+align-items: center;
+text-decoration: none;
+color: blue;
+font-size: 18px;
+left: 36%;
+top: 49%;
+
+}
+
+
+
+
+
