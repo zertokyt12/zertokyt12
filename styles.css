@@ -1,11 +1,12 @@
 
 .first {
+    
     background-color: rgb(80, 80, 255);
     width: 100%;
     height: 75px;   
     
-    
-    }
+
+    }    
 
     body {
 
@@ -19,39 +20,9 @@ position: absolute;
 top: 1.5px;
 width: 85px;
 border-radius: 5px;
-left: 2.5px;
+left: 48.5%;
 }
 
-#youtube:hover {
-
-animation-name: test;
-animation-duration: 0.5s;
-animation-fill-mode: forwards;
-}
-
-#youtube {
-
-    position: absolute;
-    left: 93px;
-    font-size: 225%;
-    top: -5px;
-    text-decoration: none;
-    color: white;
-    }
-
-
-@keyframes test {
-
-    from {
-color:white; 
-
-    }
-    to {
-
-color:blue;
-
-    }
-}
 
 #Anti-Drop {
 
@@ -66,7 +37,7 @@ left: 40%;
 position: absolute;
 left: 43%;
 top: 16%;
-font-size: 50px;
+font-size: 300%;
 color:red
 
 }
@@ -78,9 +49,39 @@ display: flex;
 align-items: center;
 text-decoration: none;
 color: blue;
-font-size: 18px;
+font-size: 110%;
 left: 38%;
 top: 49%;
+
+}
+
+
+
+#discord {
+
+position: absolute;
+left: 55%;
+text-decoration: none;
+font-size: 300%;
+color: white;
+
+}
+
+#plugin {
+
+    position: absolute;
+    left: 40%;
+    text-decoration: none;
+    font-size: 300%;
+    color: white;
+
+}
+
+
+.Anti-Drop {
+
+animation-name: test;
+animation-duration: 3s;
 
 }
 
