@@ -1,0 +1,159 @@
+#Anti-Drop {
+
+animation-name: Anti-Drop;
+animation-delay: 2s;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+
+
+}
+
+
+#Anti-Droptxt {
+
+animation-name: Anti-Droptxt;
+animation-delay: 2s;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+
+#java1 {
+
+animation-name: java1;
+animation-delay: 2s;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+
+}
+
+#Anti-Break-Block {
+
+animation-name: Anti-Break-Block;
+animation-delay: 2.5s;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+top: 25%;
+opacity: 0;
+
+}
+
+#Anti-Break-Blocktxt {
+    animation-name: Anti-Break-Blocktxt;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    top: 16%;
+    opacity: 0;
+
+}
+
+#java2 {
+
+animation-name: java2;
+animation-delay: 2.5s;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+top: 49%;
+opacity: 0;
+
+}
+
+
+@keyframes Anti-Drop {
+
+    from {
+
+left: 40%;
+
+    }
+
+    to {
+
+left: 105%;
+display: none;
+
+    }
+    
+}
+
+@keyframes Anti-Droptxt {
+
+    from {
+
+left: 40%;
+
+    }
+
+    to {
+
+left: 105%;
+display: none;
+
+    }
+    
+}
+
+@keyframes java1 {
+
+    from {
+
+left: 40%;
+
+    }
+
+    to {
+
+left: 105%;
+display: none;
+
+    }
+    
+}
+
+
+@keyframes Anti-Break-Block {
+
+    from {
+opacity: 1;
+left: 0%;
+    }
+
+    to {
+opacity: 1;
+left: 40%;
+top: 25%;
+    }
+    
+}
+
+@keyframes Anti-Break-Blocktxt {
+
+    from {
+opacity: 1;
+left: 0%;
+
+    }
+
+    to {
+opacity: 1;
+left: 40%;
+
+    }
+    
+}
+
+@keyframes java2 {
+
+    from {
+opacity: 1;
+left: 0%;
+
+    }
+
+    to {
+opacity: 1;
+left: 40%;
+
+    }
+    
+}
