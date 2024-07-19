@@ -1,37 +1,26 @@
 #Anti-Drop {
-
     position: absolute;
-    font-size: 10px;
     top: 25%;
     left: 40%;
-    
-    }
+    display: flex;
+}
 
-    #Anti-Droptxt {
-        position: absolute;
-        left: 43%;
-        top: 16%;
-        font-size: 300%;
-        color:red
-        
-        }
+#Anti-Droptxt {
+    position: absolute;
+    left: 43%;
+    top: 16%;
+    font-size: 10%;
+    color: red;
+    display: flex;
+}
 
-        #java1 {
-
-            position: absolute;
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: blue;
-            font-size: 110%;
-            left: 38%;
-            top: 49%;
-            
-            }
-            
-            .Anti-Drop {
-
-                animation-name: test;
-                animation-duration: 3s;
-                
-                }
+#java1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+    left: 38%;
+    top: 49%;
+    margin-right: 10px;
+}

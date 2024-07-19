@@ -1,51 +1,37 @@
-
 .first {
-
     background-color: rgb(80, 80, 255);
     width: 100%;
-    height: 75px;   
-    
-
-    }    
-
-    body {
-
-        margin: 0%;
-    
-    }
-
-#youtube-img {
-
-position: absolute;
-top: 1.5px;
-width: 85px;
-border-radius: 5px;
-left: 48.5%;
+    height: 7.5%; 
+    display: flex;
 }
 
+body {
+    margin: 0%;
+}
+
+#youtube-img {
+    position: absolute;
+    top: 0%; 
+    width: 4.6%; 
+    border-radius: 5%; 
+    left: 47.5%;
+    display: flex;
+}
 
 #discord {
-
-position: absolute;
-left: 55%;
-text-decoration: none;
-font-size: 300%;
-color: white;
-
+    position: absolute;
+    left: 55%;
+    text-decoration: none;
+    font-size: 300%;
+    color: white;
+    display: flex;
 }
 
 #plugin {
-
     position: absolute;
     left: 40%;
     text-decoration: none;
     font-size: 300%;
     color: white;
-
+    display: flex;
 }
-
-
-
-
-
-

@@ -1,9 +1,10 @@
 #Anti-Break-Block {
 
     position: absolute;
-    font-size: 10px;
+    font-size: 10%;
     top: 75%;
     left: 40%;
+    display: flex;
     
     }
 
@@ -12,7 +13,8 @@
         left: 40.5%;
         top: 66%;
         font-size: 300%;
-        color:red
+        color:red;
+        display: flex;
         
         }
 
@@ -23,15 +25,9 @@
             align-items: center;
             text-decoration: none;
             color: blue;
-            font-size: 90%;
+            
             left: 38%;
             top: 99%;
+            margin-right: 10px;
             
             }
-            
-            .Anti-Drop {
-
-                animation-name: test;
-                animation-duration: 3s;
-                
-                }
